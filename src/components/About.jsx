@@ -7,8 +7,11 @@ function About() {
     return (
         <div className = "about-container">
             <div className = "about-section">
-                <div className = "profile-image">
-                    <Image src={profile} roundedCircle/>
+                <div className = "flex-about">
+                    <div className = "profile-image">
+                        <Image src={profile} roundedCircle/>
+                    </div>
+                    
                 </div>
             </div>
         </div>
