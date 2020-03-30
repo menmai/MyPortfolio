@@ -77,13 +77,25 @@ html, body {
 
 .profile-image {
     margin: 2em;
+    margin-bottom: 0em;
 }
 
 .flex-about {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     align-content: center;
+}
+
+.about-text {
+    margin: 2em;
+    width: 50%;
+    text-align:left;
+}
+
+.about-text h1 {
+    text-align: center;
 }
 
 @media only screen and (max-width : 768px) {
@@ -94,5 +106,9 @@ html, body {
     
     .about-section {
         width: 95%;
+    }
+
+    .about-text {
+        width: 85%;
     }
 }
