@@ -58,15 +58,18 @@ html, body {
     text-transform: uppercase;
 }
 
-/* About Section */
+/* General Container */
 
-.about-container {
+.basic-container {
     position: relative;
     width: 100%;
     padding: 2em 0.5em 1.5em 0.5em;
     text-align:center;
     background-color: rgb(238, 238, 238);
 }
+
+/* About Section */
+
 
 .about-section {
     width: 75%;
@@ -80,7 +83,7 @@ html, body {
     margin-bottom: 0em;
 }
 
-.flex-about {
+.flex-wrapped {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -98,6 +101,18 @@ html, body {
     text-align: center;
 }
 
+/* Portfolio Section */
+
+.portfolio-section {
+    width: 75%;
+    display: inline-block;
+}
+
+.portfolio-section hr {
+    width: 30%;
+    display: inline-block;
+}
+
 @media only screen and (max-width : 768px) {
     .hero-title,
     .hero-sub-title {
@@ -110,5 +125,9 @@ html, body {
 
     .about-text {
         width: 85%;
+    }
+
+    .portfolio-section hr {
+        width: 75%;
     }
 }
