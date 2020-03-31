@@ -19,6 +19,10 @@ html {
     padding: 0.5% 20%;
 }
 
+.navtext {
+    font-weight: 300;
+}
+
 /* Header Hero */
 
 .hero {
