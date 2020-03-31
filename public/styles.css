@@ -56,9 +56,15 @@ html {
     position: relative;
 }
 
-.hero-title,
-.hero-sub-title {
+.hero-title {
     font-size: 4.2em;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.hero-sub-title {
+    font-size: 3em;
     width: 100%;
     display: block;
     text-align: center;
@@ -139,9 +145,12 @@ html {
         padding: 1.5% 3%;
     }
 
-    .hero-title,
-    .hero-sub-title {
+    .hero-title {
 		font-size: 3em;
+    }
+
+    .hero-sub-title {
+		font-size: 2.5em;
     }
     
     .about-section {
