@@ -1,11 +1,13 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import logo from '../assets/logo.png'
+
 
 function Navigation() {
     return(
         <Navbar collapseOnSelect bg="dark" expand="lg" variant="dark" fixed="top">
-            <Navbar.Brand href="#home">Navigation</Navbar.Brand>
+            <Navbar.Brand href="#home"><img src={logo}></img></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />       
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">

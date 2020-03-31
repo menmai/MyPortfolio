@@ -16,7 +16,7 @@ html {
 /* Navigation */
 
 .navbar {
-    padding: 1% 12.5%;
+    padding: 0.5% 20%;
 }
 
 /* Header Hero */
@@ -84,7 +84,7 @@ html {
 
 
 .about-section {
-    width: 75%;
+    width: 60%;
     display: inline-block;
     background-color: white;
     box-shadow: 0 0 0.2rem 0 rgba(0, 0, 0, 0.3);
@@ -116,7 +116,7 @@ html {
 /* Portfolio Section */
 
 .portfolio-section {
-    width: 75%;
+    width: 60%;
     display: inline-block;
 }
 
@@ -127,7 +127,7 @@ html {
 
 @media only screen and (max-width : 768px) {
     .navbar {
-        padding: 3%;
+        padding: 1.5% 3%;
     }
 
     .hero-title,
