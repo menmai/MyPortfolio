@@ -5,10 +5,10 @@ import profile from '../assets/profile.png';
 function About() {
 
     return (
-        <div className = "about-container">
-            <div className = "about-section">
-                <div className = "flex-about">
-                    <div className = "profile-image">
+        <div className="basic-container">
+            <div className="about-section">
+                <div className="flex-wrapped">
+                    <div className="profile-image">
                         <Image src={profile} roundedCircle/>
                     </div>
                     <div className = "about-text">
