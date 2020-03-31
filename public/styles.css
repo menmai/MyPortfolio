@@ -69,6 +69,15 @@ html {
     text-transform: uppercase;
 }
 
+.titles-appear {
+    opacity: 0.01;
+}
+
+.titles-appear.titles-appear-active {
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
+
 /* General Container */
 
 .basic-container {
