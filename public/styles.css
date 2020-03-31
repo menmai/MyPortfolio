@@ -8,13 +8,16 @@ html, body {
     height: 100%;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 /* Navigation */
 
 .navbar {
     padding: 1% 12.5%;
 }
-
 
 /* Header Hero */
 
