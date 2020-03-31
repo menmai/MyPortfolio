@@ -5,7 +5,7 @@ import profile from '../assets/profile.png';
 function About() {
 
     return (
-        <div className="basic-container">
+        <div id="about" className="basic-container">
             <div className="about-section">
                 <div className="flex-wrapped">
                     <div className="profile-image">
