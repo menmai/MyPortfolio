@@ -5,3 +5,5 @@ This project was created for usage as a portfolio. The following steps were used
 2. Default project build was gutted by removing files that were unimportant at the time.
 
 3. Added a hero background image (With help from guide found here: https://love2dev.com/blog/responsive-hero-background-opacity/)
+
+4. Design, create and modify components for broad usage within the project. Bootstrap components were also used.
