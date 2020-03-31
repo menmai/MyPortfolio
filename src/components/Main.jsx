@@ -5,12 +5,9 @@ function Main() {
 
     const [titleLoaded, setTitleLoaded] = useState(false);
 
-    function handleLoad() {
-        setTitleLoaded(true);
-    }
+    function handleLoad() { setTitleLoaded(true) };
 
-    const title = "Title";
-    const subTitle = "Subtitle"
+    const title = "Title", subTitle = "Subtitle";
 
     return(
         <div id="home" className="hero flex-center">
