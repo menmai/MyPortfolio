@@ -7,7 +7,9 @@ import logo from '../assets/logo.png'
 function Navigation() {
     return(
         <Navbar collapseOnSelect bg="dark" expand="lg" variant="dark" fixed="top">
-            <Navbar.Brand href="#home"><img src={logo}></img></Navbar.Brand>
+            <Navbar.Brand href="#home">
+                <img src={logo}/>
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />       
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
