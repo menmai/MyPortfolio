@@ -1,10 +1,12 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
+import NavLink from './NavLink';
 import Nav from 'react-bootstrap/Nav';
-import logo from '../assets/logo.png'
 
+import logo from '../assets/logo.png';
 
 function Navigation() {
+
     return(
         <Navbar collapseOnSelect bg="dark" expand="lg" variant="dark" fixed="top">
             <Navbar.Brand href="#home">
@@ -13,10 +15,10 @@ function Navigation() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />       
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                    <Nav.Link href="#home"><div className="navtext">Home</div></Nav.Link>
-                    <Nav.Link href="#about"><div className="navtext">About</div></Nav.Link>
-                    <Nav.Link href="#portfolio"><div className="navtext">Portfolio</div></Nav.Link>
-                    <Nav.Link href="#contact"><div className="navtext">Contact</div></Nav.Link>
+                    {NavLink("Home", "#home")}
+                    {NavLink("About", "#about")}
+                    {NavLink("Portfolio", "#portfolio")}
+                    {NavLink("Contact", "#contact")}
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
