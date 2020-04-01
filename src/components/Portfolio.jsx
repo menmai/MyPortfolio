@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../assets/profile.png';
+import visSort from '../assets/vis-sort.png';
 import PortfolioItem from './PortfolioItem';
 
 function Portfolio() {
@@ -18,9 +18,8 @@ function Portfolio() {
                         title="Vis-Sort" 
                         description="Visualization of sorting algorithms." 
                         tech="React, HTML, CSS, JavaScript, BootStrap"
-                        image={profile}
+                        image={visSort}
                     />
-                    
                 </div>
             </div>
         </div>
