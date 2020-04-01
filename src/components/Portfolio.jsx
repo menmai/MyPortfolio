@@ -16,10 +16,11 @@ function Portfolio() {
                 <div className="flex-wrapped2">
                     <PortfolioItem 
                         title="Vis-Sort" 
-                        description="Visual representation of sorting algorithms." 
+                        description="Visualization of sorting algorithms." 
                         tech="React, HTML, CSS, JavaScript, BootStrap"
                         image={profile}
                     />
+                    
                 </div>
             </div>
         </div>
