@@ -46,13 +46,6 @@ html {
     height: 100%;
 }
 
-.flex-center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-}
-
 .hero-message {
     color: #ffffff;
     min-width: 100%;
@@ -63,8 +56,10 @@ html {
 .hero-title {
     font-size: 4.2em;
     width: 100%;
+    margin: 3% 0;
     display: block;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .hero-sub-title {
@@ -72,11 +67,6 @@ html {
     width: 100%;
     display: block;
     text-align: center;
-}
-
-.hero-title {
-    margin: 3% 0;
-    text-transform: uppercase;
 }
 
 .titles-appear {
@@ -98,6 +88,29 @@ html {
     background-color: rgb(238, 238, 238);
 }
 
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.flex-wrapped {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.flex-wrapped2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
 
 /* About Section */
 
@@ -112,14 +125,6 @@ html {
 .profile-image {
     margin: 2em;
     margin-bottom: 0em;
-}
-
-.flex-wrapped {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    align-content: center;
 }
 
 .about-text {
@@ -144,7 +149,45 @@ html {
     display: inline-block;
 }
 
-@media only screen and (max-width : 768px) {
+.portfolio-card {
+    width: 30%;
+    margin-bottom: 3%;
+    font-size: 80%;
+}
+
+.card-img {
+    width: 100%;
+    height: 18em;
+}
+
+.portfolio-card img {
+    height: 100%;
+    display: block;
+}
+
+@media only screen and (max-width : 1024px) {
+    .portfolio-card {
+        width: 45%;
+        margin-bottom: 3%;
+        font-size: 80%;
+    }
+
+    .about-section {
+        width: 75%;
+    }
+
+    .about-text {
+        width: 85%;
+    }
+
+    .portfolio-section {
+        width: 75%;
+        display: inline-block;
+    }
+
+}
+
+@media only screen and (max-width : 425px) {
     .navbar {
         padding: 1.5% 3%;
     }
@@ -161,11 +204,22 @@ html {
         width: 95%;
     }
 
-    .about-text {
-        width: 85%;
+    .flex-wrapped2 {
+        justify-content: center;
+    }
+
+    .portfolio-section {
+        width: 100%;
+        display: inline-block;
     }
 
     .portfolio-section hr {
         width: 75%;
+    }
+
+    .portfolio-card {
+        width: 95%;
+        margin-bottom: 3%;
+        font-size: 80%;
     }
 }
