@@ -1,4 +1,5 @@
 import React from 'react';
+import PortfolioItem from './PortfolioItem';
 
 function Portfolio() {
 
@@ -11,8 +12,8 @@ function Portfolio() {
                 <h1>{sectionTitle}</h1>
                 <p>{sectionSubTitle}</p>
                 <hr/>
-                <div className="flex-wrapped">
-
+                <div className="flex-wrapped2">
+                    <PortfolioItem title="Vis-Sort" description="Visual representation of sorting algorithms." tech="React, HTML, CSS, JavaScript, BootStrap"/>
                 </div>
             </div>
         </div>
