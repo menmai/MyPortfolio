@@ -1,14 +1,13 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import profile from '../assets/profile.png';
 
 function PortfolioItem(props) {
     return (
         <div className="portfolio-card">
             <Card>
                 <div className="card-img">
-                    <Card.Img variant="top" src={profile}/>
+                    <Card.Img variant="top" src={props.image}/>
                 </div>
                 <Card.Body>
                     <Card.Title>{props.title}</Card.Title>

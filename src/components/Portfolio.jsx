@@ -1,4 +1,5 @@
 import React from 'react';
+import profile from '../assets/profile.png';
 import PortfolioItem from './PortfolioItem';
 
 function Portfolio() {
@@ -13,7 +14,12 @@ function Portfolio() {
                 <p>{sectionSubTitle}</p>
                 <hr/>
                 <div className="flex-wrapped2">
-                    <PortfolioItem title="Vis-Sort" description="Visual representation of sorting algorithms." tech="React, HTML, CSS, JavaScript, BootStrap"/>
+                    <PortfolioItem 
+                        title="Vis-Sort" 
+                        description="Visual representation of sorting algorithms." 
+                        tech="React, HTML, CSS, JavaScript, BootStrap"
+                        image={profile}
+                    />
                 </div>
             </div>
         </div>
