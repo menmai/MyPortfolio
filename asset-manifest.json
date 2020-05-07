@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/MyPortfolio/static/js/main.b08b7182.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.b08b7182.chunk.js.map",
-    "runtime-main.js": "/MyPortfolio/static/js/runtime-main.abaedea4.js",
-    "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.abaedea4.js.map",
-    "static/js/2.137e67ea.chunk.js": "/MyPortfolio/static/js/2.137e67ea.chunk.js",
-    "static/js/2.137e67ea.chunk.js.map": "/MyPortfolio/static/js/2.137e67ea.chunk.js.map",
-    "index.html": "/MyPortfolio/index.html",
-    "precache-manifest.e24bc11f3ae5b4e3a4c5f5e923caae91.js": "/MyPortfolio/precache-manifest.e24bc11f3ae5b4e3a4c5f5e923caae91.js",
-    "service-worker.js": "/MyPortfolio/service-worker.js",
-    "static/js/2.137e67ea.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.137e67ea.chunk.js.LICENSE.txt",
-    "static/media/HTMWeather.png": "/MyPortfolio/static/media/HTMWeather.eba85d38.png",
-    "static/media/cityTour.png": "/MyPortfolio/static/media/cityTour.8072efe7.png",
-    "static/media/profile.png": "/MyPortfolio/static/media/profile.69d47310.png",
-    "static/media/vis-sort.png": "/MyPortfolio/static/media/vis-sort.6b242e18.png"
+    "main.js": "/static/js/main.b08b7182.chunk.js",
+    "main.js.map": "/static/js/main.b08b7182.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c24f648c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c24f648c.js.map",
+    "static/js/2.137e67ea.chunk.js": "/static/js/2.137e67ea.chunk.js",
+    "static/js/2.137e67ea.chunk.js.map": "/static/js/2.137e67ea.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a6e9cb077bef92fb50e9d74b45cece46.js": "/precache-manifest.a6e9cb077bef92fb50e9d74b45cece46.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.137e67ea.chunk.js.LICENSE.txt": "/static/js/2.137e67ea.chunk.js.LICENSE.txt",
+    "static/media/HTMWeather.png": "/static/media/HTMWeather.eba85d38.png",
+    "static/media/cityTour.png": "/static/media/cityTour.8072efe7.png",
+    "static/media/profile.png": "/static/media/profile.69d47310.png",
+    "static/media/vis-sort.png": "/static/media/vis-sort.6b242e18.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.abaedea4.js",
+    "static/js/runtime-main.c24f648c.js",
     "static/js/2.137e67ea.chunk.js",
     "static/js/main.b08b7182.chunk.js"
   ]
