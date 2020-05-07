@@ -5,12 +5,16 @@ import profile from '../assets/profile.png';
 function About() {
 
     const sectionTitle = "About Me";
-    const aboutText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In venenatis faucibus turpis, \n" +
-        "vel sodales eros feugiat sed. Proin malesuada sit amet sapien a tristique. Mauris erat mi, vestibulum \n" +
-        "sit amet molestie nec, pretium eu risus. Donec congue erat non lorem fringilla elementum. Sed ac lacus \n" +
-        "arcu. Ut sit amet dolor tellus. Duis sapien ligula, rhoncus et fringilla id, congue ullamcorper enim. \n" +
-        "Ut nec ex ipsum. Vivamus mattis lacinia erat in imperdiet. Cras sed dui vitae lacus consequat bibendum \n" +
-        "ac euismod lorem.";
+    const aboutText = "Self motivated developer, passionate about innovation and using modern technology \n" +
+        "to develop unique value-providing solutions and high quality of work. Demonstrated ability to write \n" +
+        "efficient and modular code for numerous projects in fast paced environments with reliability. Actively \n" +
+        "participated in planning and operations of projects as directed by management. Exceptional in effective \n" +
+        "communication, collaboration and teamwork. Eager to leverage programming capabilities in tandem with a \n" +
+        "STEM background.";
+
+    const skillsText = "Java • Python 3 • C#/.NET • JavaScript (ES6) • HTML5 • CSS3 • React • BootStrap • jQuery • \n" +
+        "GUI Development (Swing) • Node.js • PostgreSQL • MongoDB • Postman • Git • SourceTree • Docker • Windows •  \n" +
+        "Linux • Ubuntu • VirtualBox • WinSCP • Gradle • Kotlin • MATLAB • AWS • Unit Testing • QA/QC • ML";
 
     return (
         <div id="about" className="basic-container">
@@ -23,6 +27,8 @@ function About() {
                         <h1>{sectionTitle}</h1>
                         <hr/>
                         <p>{aboutText}</p>
+                        <p>Various levels of experience with:</p>
+                        <p>{skillsText}</p>
                     </div>
                 </div>
             </div>

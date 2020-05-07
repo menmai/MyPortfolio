@@ -12,13 +12,12 @@ function Navigation() {
             <Navbar.Brand href="#home">
                 <img src={logo}/>
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />       
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
                     {NavLink("Home", "#home")}
                     {NavLink("About", "#about")}
                     {NavLink("Portfolio", "#portfolio")}
-                    {NavLink("Contact", "#contact")}
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

@@ -120,6 +120,8 @@ html {
     display: inline-block;
     background-color: white;
     box-shadow: 0 0 0.2rem 0 rgba(0, 0, 0, 0.3);
+    padding: 2em;
+    padding-bottom: 4em;
 }
 
 .profile-image {
@@ -174,6 +176,11 @@ html {
     transform: scale(1.15);
 }
 
+.portfolio-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 @media only screen and (max-width : 1024px) {
     .portfolio-card {
         width: 45%;
@@ -208,7 +215,7 @@ html {
     .hero-sub-title {
 		font-size: 2.5em;
     }
-    
+
     .about-section {
         width: 95%;
     }

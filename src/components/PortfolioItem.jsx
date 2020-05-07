@@ -2,6 +2,8 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
+
+
 function PortfolioItem(props) {
     return (
         <div className="portfolio-card">
@@ -13,11 +15,13 @@ function PortfolioItem(props) {
                     <Card.Title style={{marginBottom: "1%"}}>{props.title}</Card.Title>
                     <Card.Text style={{marginBottom: "4%"}}>{props.description}</Card.Text>
                     <Card.Text style={{fontSize:"90%", color:"grey", marginBottom: "4%"}}>{props.tech}</Card.Text>
-                    <Button variant="primary">View</Button>
+                    <Button variant="primary">
+                      <a className="portfolio-link" rel="noopener noreferrer" href={props.link} target="_blank">View</a>
+                    </Button>
                 </Card.Body>
             </Card>
         </div>
     );
 }
 
-export default PortfolioItem;                  
+export default PortfolioItem;

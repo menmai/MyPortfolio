@@ -7,7 +7,7 @@ function Main() {
 
     function handleLoad() { setTitleLoaded(true) };
 
-    const title = "Title", subTitle = "Subtitle";
+    const title = "Hello", subTitle = "My name is Nem";
 
     return(
         <div id="home" className="hero flex-center">
