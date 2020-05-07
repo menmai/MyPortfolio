@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/MyPortfolio/static/js/main.b08b7182.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.b08b7182.chunk.js.map",
+    "runtime-main.js": "/MyPortfolio/static/js/runtime-main.abaedea4.js",
+    "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.abaedea4.js.map",
+    "static/js/2.137e67ea.chunk.js": "/MyPortfolio/static/js/2.137e67ea.chunk.js",
+    "static/js/2.137e67ea.chunk.js.map": "/MyPortfolio/static/js/2.137e67ea.chunk.js.map",
+    "index.html": "/MyPortfolio/index.html",
+    "precache-manifest.e24bc11f3ae5b4e3a4c5f5e923caae91.js": "/MyPortfolio/precache-manifest.e24bc11f3ae5b4e3a4c5f5e923caae91.js",
+    "service-worker.js": "/MyPortfolio/service-worker.js",
+    "static/js/2.137e67ea.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.137e67ea.chunk.js.LICENSE.txt",
+    "static/media/HTMWeather.png": "/MyPortfolio/static/media/HTMWeather.eba85d38.png",
+    "static/media/cityTour.png": "/MyPortfolio/static/media/cityTour.8072efe7.png",
+    "static/media/profile.png": "/MyPortfolio/static/media/profile.69d47310.png",
+    "static/media/vis-sort.png": "/MyPortfolio/static/media/vis-sort.6b242e18.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abaedea4.js",
+    "static/js/2.137e67ea.chunk.js",
+    "static/js/main.b08b7182.chunk.js"
+  ]
+}
